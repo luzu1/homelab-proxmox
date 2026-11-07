@@ -15,23 +15,24 @@ El proyecto recoge el trabajo realizado en despliegue de servicios, gestión de 
 
 ## Documentación
 
-- **00 - Resumen del proyecto**: Objetivos, tecnologías utilizadas, conocimientos adquiridos y alcance de las prácticas.
+- [00 – Resumen del proyecto](docs/00-overview.md): Objetivos, tecnologías utilizadas, conocimientos adquiridos y alcance de las prácticas.
 
-- **01 - Instalación y preparación de Proxmox VE**: Instalación de la plataforma, configuración inicial y comprobaciones del sistema, la red y el almacenamiento.
+- [01 – Instalación y preparación de Proxmox VE](docs/01-instalacion-proxmox.md): Instalación de la plataforma y comprobaciones iniciales de servicios, red y almacenamiento.
 
-- **02 - Máquinas virtuales y contenedores LXC**: Creación de entornos, asignación de recursos, administración desde la interfaz web y comandos de gestión con `qm` y `pct`.
+- [02 – Máquinas virtuales y contenedores LXC](docs/02-maquinas-virtuales-lxc.md): Creación de entornos, asignación de recursos y administración con `qm` y `pct`.
 
-- **03 - Docker y administración con Portainer**: Despliegue de aplicaciones, archivos Docker Compose, persistencia de datos, revisión de registros y administración de contenedores.
+- [03 – Docker y administración con Portainer](docs/03-docker-portainer.md): Instalación de Docker, despliegue con Compose, persistencia de datos y administración de aplicaciones.
 
-- **04 - Monitorización con Uptime Kuma**: Configuración de monitores, comprobación de disponibilidad y diagnóstico de servicios que dejan de responder.
+- [04 – Monitorización con Uptime Kuma](docs/04-monitorizacion-uptime-kuma.md): Configuración de monitores, comprobación de disponibilidad y diagnóstico de interrupciones.
 
-- **05 - Almacenamiento y copias de seguridad**: Revisión de discos y puntos de montaje, configuración de tareas de backup, comprobación de resultados y consideraciones para la recuperación.
+- [05 – Almacenamiento y copias de seguridad](docs/05-almacenamiento-backups.md): Revisión de discos y montajes, programación de backups y planificación de pruebas de recuperación.
 
-- **06 - Immich y migración de fotografías**: Despliegue del servicio, organización del almacenamiento, migración desde Google Photos y comprobaciones del contenido importado.
+- [06 – Immich y migración de fotografías](docs/06-immich-migracion.md): Despliegue del servicio, preparación de la importación y comprobación de archivos y metadatos.
 
-- **07 - Home Assistant y servicios Zigbee/MQTT**: Despliegue de Home Assistant OS, integración de dispositivos y administración de los servicios de comunicación.
+- [07 – Home Assistant y servicios Zigbee/MQTT](docs/07-home-assistant-zigbee-mqtt.md): Despliegue de Home Assistant OS, integración de dispositivos y comunicación mediante MQTT.
 
-- **08 - Diagnóstico y mantenimiento**: Comprobación de recursos, consulta de logs y documentación de incidencias, soluciones aplicadas y verificaciones finales.
+- [08 – Diagnóstico y mantenimiento](docs/08-diagnostico-mantenimiento.md): Investigación de errores, revisión de registros y documentación de incidencias.
+
 
 ---
 
