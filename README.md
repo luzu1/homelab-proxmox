@@ -33,6 +33,8 @@ El proyecto recoge el trabajo realizado en despliegue de servicios, gestión de 
 
 - [08 – Diagnóstico y mantenimiento](docs/08-diagnostico-mantenimiento.md): Investigación de errores, revisión de registros y documentación de incidencias.
 
+- [09 – Acceso remoto y publicación de servicios](docs/09-acceso-remoto-publicacion.md): Acceso privado con Tailscale, túneles SSH, publicación mediante Cloudflare Tunnel y gestión de proxies con Nginx Proxy Manager.
+
 
 ---
 
